@@ -52,7 +52,7 @@ const messageSets = {
   },
   musclée: {
     messages: [
-      "Regarde ces biscotos !",
+      "Regarde mes biscotos !",
       "Je me sens invincible !",
       "Prête pour l'aventure !",
     ],
@@ -83,8 +83,8 @@ function startSpeechCycle() {
 
     setTimeout(() => {
       showMessage.value = false;
-    }, 10000); // Visible pendant 10 secondes
-  }, 30000); // Toutes les 30 secondes
+    }, 5000); // Visible pendant 5 secondes
+  }, 10000); // Toutes les 10 secondes
 }
 
 const bubblePosition = computed(() => {
